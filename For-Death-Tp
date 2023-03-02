@@ -1,0 +1,16 @@
+	--idk why people make their root delters so complicated lmao
+  --skid do whatever idrc
+  --also meant for liquid bounces deathtp or vapes trredirection
+  
+  
+  
+  if game.Players.LocalPlayer.Character ~= nil then
+		local char = game.Players.LocalPlayer.Character
+		char.Parent = nil
+		char.HumanoidRootPart:Destroy()
+		char.Parent = workspace
+	end
+  
+  wait(0.3)
+  
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
